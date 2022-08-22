@@ -1,4 +1,63 @@
 * {
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+:root {
+    --black: #383838;
+    --yellow: #fcc330;
+    --grey: red; /* добавить фон */
+    }
+
+body {
+    color: var(--black);
+}
+
+.button {
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button-nav {
+    border: 1px solid var(--black);
+    background-color: #fff;
+}
+
+.button-nav:hover{
+    color: #fff;
+    background-color: var(--black);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: var(--yellow);
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.left-nav, .right-nav {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.left-nav a, .right-nav a {
+    margin-left: 10px;
+}
+
+
