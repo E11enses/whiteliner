@@ -50,7 +50,7 @@ body {
 }
 
 .button-main:hover {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 /* Navbar */
@@ -120,15 +120,29 @@ nav a {
     margin-top: 2.5rem;
 }
 
+.pin {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    animation: movePin 1s ease-in-out infinite;
+}
+
+@keyframes movePin {
+    0% {top: 10%;}
+    50% {top: 8%;}
+    100% {top: 10%}
+ }
+
 /* Advantages Section */
 .advantages {
     background: var(--black);
     color: #fff;
-    padding: 1rem 0 2.5rem 0 ;
+    padding: 1rem 0 2.5rem 0;
 }
 
 .advantages-wrapper {
     max-width: 1440px;
+    padding: 10px;
     margin: auto;
 }
 
@@ -139,5 +153,64 @@ nav a {
 .features {
     margin-top: 2.5rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
+.feature img {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.feature-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+
+.feature-explanation {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* More Advantages Section */
+.more-advantages {
+    background-color: var(--grey);
+}
+
+.more-advantages-wrapper {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.more-features {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+    padding: 2em 10em;
+}
+
+.more-feature {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 15em;
+    height: 15em;
+}
+
+.more-feature img {
+    margin-bottom: 1em;
+}
+
+.more-feature-title {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+}
+
+.more-feature-explanation {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
