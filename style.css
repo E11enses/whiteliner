@@ -199,7 +199,6 @@ nav a {
 
 .more-features {
     display: grid;
-    justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3em;
     padding: 2em 10em;
@@ -621,13 +620,13 @@ footer {
     }
 
     @keyframes movePin {
-        0% {top: 55%;}
-        50% {top: 52%;}
-        100% {top: 55%}
+        0% {top: 56%;}
+        50% {top: 54%;}
+        100% {top: 56%}
      }
     
     .more-features {
-        padding: 0.5em 5em;
+        padding: 0.5em 5px;
         grid-gap: 1.5em;
     }
     
