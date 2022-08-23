@@ -615,6 +615,22 @@ footer {
 }
 
 @media (max-width: 428px) {
+    .hero-heading {
+        font-size: 1.8em;
+    }
+
+    .advantages-title {
+        font-size: 1.8em;
+        }
+    
+    .testimonials-title {
+        font-size: 1.8em;
+    }
+
+    .how-to-start-title {
+        font-size: 1.8em;
+    }
+    
     .pin {
         scale: 1.1;
     }
