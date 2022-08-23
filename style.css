@@ -585,6 +585,10 @@ footer {
         font-size: 1.1em;
     }
     
+    .more-features {
+        padding: 2em 2px;
+    }
+
     .more-feature {
         max-width: 45vw;
         max-height: 45vw;
@@ -617,9 +621,9 @@ footer {
     }
 
     @keyframes movePin {
-        0% {top: 52%;}
-        50% {top: 50%;}
-        100% {top: 52%}
+        0% {top: 55%;}
+        50% {top: 52%;}
+        100% {top: 55%}
      }
     
     .more-features {
@@ -637,6 +641,10 @@ footer {
 
     .more-feature-explanation {
         font-size: 0.85em;
+    }
+
+    .benefits {
+        font-size: 1.3em;
     }
 
     footer {

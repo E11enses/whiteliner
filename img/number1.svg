@@ -7,16 +7,13 @@
 
       .cls-2 {
         fill: #383838;
-        font-size: 70px;
-        font-family: HelveticaNeueCyr-Heavy, HelveticaNeueCyr;
-        font-weight: 800;
       }
     </style>
   </defs>
-  <g id="Number_1" data-name="Number 1" transform="translate(-218 -2988)">
+  <g id="number1" transform="translate(-218 -2988)">
     <g id="Group_92" data-name="Group 92" transform="translate(218 2988)">
       <circle id="Ellipse_22" data-name="Ellipse 22" class="cls-1" cx="47" cy="47" r="47"/>
     </g>
-    <text id="_1" data-name="1" class="cls-2" transform="translate(242 2994)"><tspan x="0" y="63">1</tspan></text>
+    <path id="Path_173" data-name="Path 173" class="cls-2" d="M31.57,14.21V63H19.04V33.18H7.35V24.43q6.3-.21,9.975-2.415T21.7,14.21Z" transform="translate(242 2994)"/>
   </g>
 </svg>
