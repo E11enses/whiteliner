@@ -72,6 +72,7 @@ body {
 nav {
     position: sticky;
     top: 0;
+    z-index: 100;
     background-color: var(--yellow);
 }
 
@@ -251,13 +252,14 @@ nav a {
 .card {
     background: #fff;
     border-radius: 10px;
-    width: 25em;
+    max-width: 25em;
     margin-top: 5em;
     padding: 2em;
 }
 
 .card img {
     display: block;
+    z-index: 1;
     margin: auto;
     width: 80px;
     position: relative;
@@ -282,6 +284,7 @@ nav a {
     position: relative;
     bottom: 15px;
 }
+
 /* How to start */
 .how-to-start-wrapper {
     margin: auto;
@@ -291,6 +294,7 @@ nav a {
 
 .how-to-start-title {
     text-align: center;
+    font-size: 2.5em;
 }
 
 .steps {
@@ -333,11 +337,13 @@ nav a {
 
 .form-page {
     display: flex;
+    gap: 5%;
 }
 
 .benefits  {
     font-size: 2em;
     font-weight: 700;
+    flex: 0 0 45%;
 }
 
 .benefits ul {
@@ -365,6 +371,10 @@ footer {
         position: absolute;
         left:60%;
     }
+
+    .benefits {
+        font-size: 1.7em;
+    }
 }
 
 @media (max-width: 1260px) {
@@ -373,6 +383,21 @@ footer {
         left: 70%;
         bottom: 0;
         scale: 2;
+    }
+
+        /* advantages */
+        .feature-title {
+            font-size: 1.2em;
+            text-align: center;
+        }
+    
+        .feature-explanation {
+            font-size: 1em;
+            text-align: center;
+        }
+
+    .card {
+        max-width: 30vw;
     }
 
     @keyframes movePin {
@@ -387,7 +412,16 @@ footer {
     }
 }
 
-@media (max-width: 985px) {
+@media (max-width: 1082px){
+
+    
+    .more-features {
+        padding: 2em;
+    }
+}
+
+@media (max-width: 995px) {
+    /* nav */
     .logo {
         font-size: 1.5em;
     }
@@ -397,15 +431,31 @@ footer {
     }
 
     .socials {
-        scale:0.8;
+        scale: 0.8;
     }
 
     .left-nav a, .right-nav a {
         margin-left: 0.5em;
     }
 
+    /* hero */
     .pin {
         scale: 1.5;
+    }
+    
+    /* testimonials */
+    .card {
+    padding: 1em;
+    }
+
+    .card-text {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 870px) {
+    .more-features {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -421,6 +471,27 @@ footer {
      }
 }
 
+@media (max-width: 715px) {
+    .steps {
+        flex-direction: column;
+    }
+
+    .step {
+        margin-bottom: 2em;
+    }
+
+    .support {
+        scale: 0.8;
+    }
+
+    .button-tech-support {
+        width: 60%;
+        margin: auto;
+        margin-top: 0.5em;
+    }
+}
+
+
 @media (max-width: 690px) {
     .nav-wrapper {
         display: flex;
@@ -432,6 +503,29 @@ footer {
         align-items: center;
     }
 
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 80vw;
+        padding: 2em;
+    }
+
+    .form-page {
+        flex-direction: column;
+    }
+
+    .application-form {
+        width: 85vw;
+        margin: auto;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+
 }
 
 @media (max-width: 650px) {
@@ -441,6 +535,77 @@ footer {
 
     .pin {
         scale: 1.3;
+    }
+
+    @keyframes movePin {
+        0% {top: 60%;}
+        50% {top: 58%;}
+        100% {top: 60%}
+     }
+
+    .advantages-title {
+        font-size: 2em;
+    }
+
+    .feature img {
+        scale: 0.8;
+    }
+
+    .feature-title {
+        font-size: 1em;
+    }
+
+    .feature-explanation {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 600px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .feature {
+        margin-bottom: 2.5em;
+    }
+
+    .feature img {
+        scale: 1;
+    }
+
+    .feature-title {
+        font-size: 1.3em;
+    }
+
+    .feature-explanation {
+        font-size: 1.1em;
+    }
+    
+    .more-feature {
+        max-width: 40vw;
+        max-height: 40vw;
+    }
+    
+    .more-feature img {
+        scale: 0.8;
+    }
+
+    .more-feature-title {
+        font-size: 1.2em;
+    }
+
+    .more-feature-explanation {
+        font-size: 1em;
+    }
+
+    .benefits {
+        font-size: 1.5em;
+    }
+
+    footer {
+        font-size: 0.8em;
     }
 }
 
