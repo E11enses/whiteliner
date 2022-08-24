@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/jir5sro.css">
     <link rel="stylesheet" href="style.css">
     <title>Таксопарк Белый Лайнер</title>
@@ -43,36 +44,47 @@
     <div class="advantages-wrapper">
         <h2 class="advantages-title">Преимущества работы с нами</h2>
         <div class="features">
+          <div data-aos="fade-right"> 
             <div class="feature1 feature">
-                <img src="/img/clock.svg" alt="fast connection">
-                <p class="feature-title">Быстрое подключение</p>
-                <p class="feature-explanation">за 5 минут</p>
-            </div>
-            <div class="feature2 feature">
-                <img src="img/percent.svg" alt="low commision">
-                <p class="feature-title">Низкие комиссии</p>
-                <p class="feature-explanation">1,4% с заказа</p>
-            </div>
-            <div class="feature3 feature">
-                <img src="/img/credit-card.svg" alt="fast pays">
-                <p class="feature-title">Моментальные выплаты</p>
-                <p class="feature-explanation">любые суммы через Яндекс.Про</p>
-            </div>
-            <div class="feature4 feature">
-                <img src="/img/support.svg" alt="tech support">
-                <p class="feature-title">Заботливая поддержка</p>
-                <p class="feature-explanation">круглосуточно 24/7</p>
-            </div>
-            <div class="feature5 feature">
-                <img src="/img/gift.svg" alt="prizes">
-                <p class="feature-title">Постоянные розыгрыши</p>
-                <p class="feature-explanation">с подарками</p>
-            </div>
+                  <img src="/img/clock.svg" alt="fast connection">
+                  <p class="feature-title">Быстрое подключение</p>
+                  <p class="feature-explanation">за 5 минут</p>
+              </div>
+          </div> 
+          <div data-aos="fade-left"> 
+              <div class="feature2 feature">
+                  <img src="img/percent.svg" alt="low commision">
+                  <p class="feature-title">Низкие комиссии</p>
+                  <p class="feature-explanation">1,4% с заказа</p>
+              </div>
+          </div>
+          <div data-aos="fade-right"> 
+              <div class="feature3 feature">
+                  <img src="/img/credit-card.svg" alt="fast pays">
+                  <p class="feature-title">Моментальные выплаты</p>
+                  <p class="feature-explanation">любые суммы через Яндекс.Про</p>
+              </div>
+          </div>
+          <div data-aos="fade-left"> 
+              <div class="feature4 feature">
+                  <img src="/img/support.svg" alt="tech support">
+                  <p class="feature-title">Заботливая поддержка</p>
+                  <p class="feature-explanation">круглосуточно 24/7</p>
+              </div>
+          </div>
+          <div data-aos="fade-right"> 
+              <div class="feature5 feature">
+                  <img src="/img/gift.svg" alt="prizes">
+                  <p class="feature-title">Постоянные розыгрыши</p>
+                  <p class="feature-explanation">с подарками</p>
+              </div>
+          </div>
         </div>
     </div>
     </section>
     <section class="more-advantages">
         <div class="more-advantages-wrapper">
+          <!-- <div data-aos="flip-down"> -->
             <div class="more-features">
             <div class="more-feature1 more-feature">
                 <img src="/img/taxi-checkers.svg" alt="taxi tag">
@@ -105,7 +117,8 @@
                 <p class="more-feature-title">Сохранение <br>рейтинга</p>
                 <p class="more-feature-explanation">и активности при переходе из других таксопарков</p>
             </div>
-        </div>          
+        <!-- </div>  -->
+      </div>         
     </div>
     </section>
     <section class="testimonials">
@@ -135,15 +148,20 @@
         <div class="how-to-start-wrapper">
         <h2 class="how-to-start-title">Начать зарабатывать просто как 1 - 2 - 3</h2>
         <div class="steps">
+          <div data-aos="flip-up">
             <div class="step1 step">
                 <img  class="number" src="/img/number1.svg" alt="1">
                 <p class="step1-title step-title">Заполните форму <br> заявки на <br> подключение ниже</p>
             </div>
+          </div>
+          <div data-aos="flip-up">
             <div class="step2 step">
                 <img class="number" src="/img/number2.svg" alt="2">
                 <p class="step2-title step-title">Дождитесь звонка от <br> нашего менеджера, <br> он ответит на все <br> ваши вопросы</p> <br>
                 <img class="support" src="/img/headset.svg" alt="support">
             </div>
+          </div>
+          <div data-aos="flip-up">
             <div class="step3 step">
                 <img class="number" src="/img/number3.svg" alt="3">
                 <p class="step3-title step-title">Или задайте <br> интересующий вас <br> вопрос в чате <br> поддержки</p>
@@ -160,6 +178,7 @@
                     </svg>
                     Чат поддержки</a>
             </div>
+          </div>
         </div>           
     </div>
     </section>
@@ -188,6 +207,9 @@
         <p>Copyright &copy; 2022 Белый Лайнер - официальный партнёр Яндекс.Такси</p>
     </footer>
 
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
