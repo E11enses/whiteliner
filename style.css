@@ -662,9 +662,9 @@ footer {
     }
 
     @keyframes movePin {
-        0% {top: 60%;}
-        50% {top: 58%;}
-        100% {top: 60%}
+        0% {top: 65%;}
+        50% {top: 63%;}
+        100% {top: 65%}
      }
 
      .button-main {
