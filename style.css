@@ -696,6 +696,10 @@ footer {
         font-size: 0.85em;
     }
 
+    .card {
+        padding-top: 5em;
+    }
+
     .benefits {
         font-size: 1.3em;
     }
