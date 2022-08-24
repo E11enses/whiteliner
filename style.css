@@ -704,6 +704,10 @@ footer {
         font-size: 1.3em;
     }
 
+    .application-wrapper {
+        padding: 1em 10px;
+    }
+
     footer {
         text-align: center;
         font-size: 0.65em;
