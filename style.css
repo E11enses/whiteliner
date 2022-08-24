@@ -616,6 +616,9 @@ footer {
 }
 
 @media (max-width: 428px) {
+    body {
+        overflow-x:hidden;
+    }
     /* hero */
     .hero {
         background-color: #030200;
