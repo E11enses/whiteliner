@@ -619,6 +619,14 @@ footer {
     * {
         overflow-x: hidden;
     }
+
+    .logo {
+        width: 65%;
+    }
+
+    .left-nav {
+        margin: 0;
+    }
     /* hero */
     .hero {
         background-color: #030200;
