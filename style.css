@@ -138,7 +138,7 @@ nav a {
     position: absolute;
     z-index: -10;
     top: 15%;
-    left: 55%;
+    left: 65%;
     animation: movePin 2s ease-in-out infinite;
 }
 
