@@ -134,10 +134,10 @@ nav a {
 }
 
 .pin {
-    position: absolute;
+    position: relative;
     z-index: -10;
     top: 15%;
-    left: 55%;
+    left: 70%;
     animation: movePin 2s ease-in-out infinite;
 }
 
